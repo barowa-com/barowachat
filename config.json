@@ -1,0 +1,10 @@
+{
+  "application_name": "BarowaChat",
+  "application_welcome_message": null,
+  "default_homeserver": "barowa.com",
+  "web_base_url": "https://element.barowa.com",
+  "privacy_url": "https://www.barowa.com/de_ch/legal.html#privacy",
+  "render_html": false,
+  "hide_redacted_events": false,
+  "hide_unknown_events": false
+}

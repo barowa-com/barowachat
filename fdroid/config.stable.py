@@ -1,8 +1,8 @@
-repo_url = "https://fluffychat.im/repo/stable/repo"
-repo_name = "FluffyChat repo"
+repo_url = "https://barowachat.im/repo/stable/repo"
+repo_name = "BarowaChat repo"
 repo_icon = "fdroid-icon.png"
 repo_description = """
-FluffyChat repo
+BarowaChat repo
 """
 
 archive_older = 0

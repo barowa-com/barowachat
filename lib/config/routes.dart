@@ -47,7 +47,7 @@ abstract class AppRoutes {
     BuildContext context,
     GoRouterState state,
   ) =>
-      Matrix.of(context).client.isLogged() ? null : '/home';
+      Matrix.of(context).client.isLogged() ? null : '/home/login';
 
   AppRoutes();
 
@@ -55,7 +55,7 @@ abstract class AppRoutes {
     GoRoute(
       path: '/',
       redirect: (context, state) =>
-          Matrix.of(context).client.isLogged() ? '/rooms' : '/home',
+          Matrix.of(context).client.isLogged() ? '/rooms' : '/home/login',
     ),
     GoRoute(
       path: '/home',

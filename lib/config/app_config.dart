@@ -3,11 +3,11 @@ import 'dart:ui';
 import 'package:matrix/matrix.dart';
 
 abstract class AppConfig {
-  static String _applicationName = 'FluffyChat';
+  static String _applicationName = 'BarowaChat';
   static String get applicationName => _applicationName;
   static String? _applicationWelcomeMessage;
   static String? get applicationWelcomeMessage => _applicationWelcomeMessage;
-  static String _defaultHomeserver = 'matrix.org';
+  static String _defaultHomeserver = 'barowa.com';
   static String get defaultHomeserver => _defaultHomeserver;
   static double fontSizeFactor = 1;
   static const Color chatColor = primaryColor;
@@ -15,32 +15,32 @@ abstract class AppConfig {
   static const double messageFontSize = 16.0;
   static const bool allowOtherHomeservers = true;
   static const bool enableRegistration = true;
-  static const Color primaryColor = Color(0xFF5625BA);
-  static const Color primaryColorLight = Color(0xFFCCBDEA);
-  static const Color secondaryColor = Color(0xFF41a2bc);
+  static const Color primaryColor = Color(0xFF4B602F);
+  static const Color primaryColorLight = Color(0xFF7C1A1D);
+  static const Color secondaryColor = Color(0xFF7C1A1D);
   static String _privacyUrl =
-      'https://github.com/krille-chan/fluffychat/blob/main/PRIVACY.md';
+      'https://github.com/barowa-com/barowachat/blob/main/PRIVACY.md';
   static String get privacyUrl => _privacyUrl;
   static const String enablePushTutorial =
-      'https://github.com/krille-chan/fluffychat/wiki/Push-Notifications-without-Google-Services';
+      'https://github.com/barowa-com/barowachat/wiki/Push-Notifications-without-Google-Services';
   static const String encryptionTutorial =
-      'https://github.com/krille-chan/fluffychat/wiki/How-to-use-end-to-end-encryption-in-FluffyChat';
+      'https://github.com/barowa-com/barowachat/wiki/How-to-use-end-to-end-encryption-in-BarowaChat';
   static const String startChatTutorial =
-      'https://github.com/krille-chan/fluffychat/wiki/How-to-Find-Users-in-FluffyChat';
-  static const String appId = 'im.fluffychat.FluffyChat';
-  static const String appOpenUrlScheme = 'im.fluffychat';
-  static String _webBaseUrl = 'https://fluffychat.im/web';
+      'https://github.com/barowa-com/barowachat/wiki/How-to-Find-Users-in-BarowaChat';
+  static const String appId = 'im.barowachat.BarowaChat';
+  static const String appOpenUrlScheme = 'im.barowachat';
+  static String _webBaseUrl = 'https://barowachat.im/web';
   static String get webBaseUrl => _webBaseUrl;
   static const String sourceCodeUrl =
-      'https://github.com/krille-chan/fluffychat';
+      'https://github.com/barowa-com/barowachat';
   static const String supportUrl =
-      'https://github.com/krille-chan/fluffychat/issues';
+      'https://github.com/barowa-com/barowachat/issues';
   static const String changelogUrl =
-      'https://github.com/krille-chan/fluffychat/blob/main/CHANGELOG.md';
+      'https://github.com/barowa-com/barowachat/blob/main/CHANGELOG.md';
   static final Uri newIssueUrl = Uri(
     scheme: 'https',
     host: 'github.com',
-    path: '/krille-chan/fluffychat/issues/new',
+    path: '/krille-chan/barowachat/issues/new',
   );
   static bool renderHtml = true;
   static bool hideRedactedEvents = false;
@@ -52,17 +52,17 @@ abstract class AppConfig {
   static bool sendPublicReadReceipts = true;
   static bool swipeRightToLeftToReply = true;
   static bool? sendOnEnter;
-  static bool showPresences = true;
+  static bool showPresences = false;
   static bool experimentalVoip = false;
   static const bool hideTypingUsernames = false;
   static const bool hideAllStateEvents = false;
   static const String inviteLinkPrefix = 'https://matrix.to/#/';
-  static const String deepLinkPrefix = 'im.fluffychat://chat/';
+  static const String deepLinkPrefix = 'im.barowachat://chat/';
   static const String schemePrefix = 'matrix:';
-  static const String pushNotificationsChannelId = 'fluffychat_push';
-  static const String pushNotificationsAppId = 'chat.fluffy.fluffychat';
+  static const String pushNotificationsChannelId = 'barowachat_push';
+  static const String pushNotificationsAppId = 'chat.barowa.barowachat';
   static const String pushNotificationsGatewayUrl =
-      'https://push.fluffychat.im/_matrix/push/v1/notify';
+      'https://push.barowachat.im/_matrix/push/v1/notify';
   static const String pushNotificationsPusherFormat = 'event_id_only';
   static const String emojiFontName = 'Noto Emoji';
   static const String emojiFontUrl =

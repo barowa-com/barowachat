@@ -1,6 +1,6 @@
-# FluffyChat AppImage
+# BarowaChat AppImage
 
-FluffyChat is provided as AppImage too. To Download, visit fluffychat.im.
+BarowaChat is provided as AppImage too. To Download, visit Barowachat.im.
 
 ## Building
 
@@ -10,15 +10,15 @@ FluffyChat is provided as AppImage too. To Download, visit fluffychat.im.
 flutter build linux
 
 # copy binaries to appimage dir
-cp -r build/linux/{x64,arm64}/release/bundle appimage/FluffyChat.AppDir
+cp -r build/linux/{x64,arm64}/release/bundle appimage/BarowaChat.AppDir
 cd appimage
 
 # prepare AppImage files
-cp FluffyChat.desktop FluffyChat.AppDir/
-mkdir -p FluffyChat.AppDir/usr/share/icons
-cp ../assets/logo.svg FluffyChat.AppDir/fluffychat.svg
-cp AppRun FluffyChat.AppDir
+cp BarowaChat.desktop BarowaChat.AppDir/
+mkdir -p BarowaChat.AppDir/usr/share/icons
+cp ../assets/logo.svg BarowaChat.AppDir/Barowachat.svg
+cp AppRun BarowaChat.AppDir
 
 # build the AppImage
-appimagetool FluffyChat.AppDir
+appimagetool BarowaChat.AppDir
 ```

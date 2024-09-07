@@ -1,8 +1,8 @@
-/*package chat.fluffy.fluffychat
+/*package chat.barowa.barowachat
 
 import com.famedly.fcm_shared_isolate.FcmSharedIsolateService
 
-import chat.fluffy.fluffychat.MainActivity
+import chat.barowa.barowachat.MainActivity
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.engine.FlutterEngine
