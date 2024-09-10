@@ -7,7 +7,7 @@ import 'package:flutter_highlighter/themes/shades-of-purple.dart';
 import 'package:matrix/matrix.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import 'package:fluffychat/config/app_config.dart';
+import 'package:barowachat/config/app_config.dart';
 
 class ErrorReporter {
   final BuildContext context;

@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:go_router/go_router.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/setting_keys.dart';
-import 'package:fluffychat/utils/beautify_string_extension.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import 'package:fluffychat/widgets/settings_switch_list_tile.dart';
+import 'package:barowachat/config/app_config.dart';
+import 'package:barowachat/config/setting_keys.dart';
+import 'package:barowachat/utils/beautify_string_extension.dart';
+import 'package:barowachat/utils/platform_infos.dart';
+import 'package:barowachat/widgets/layouts/max_width_body.dart';
+import 'package:barowachat/widgets/matrix.dart';
+import 'package:barowachat/widgets/settings_switch_list_tile.dart';
 import 'settings_security.dart';
 
 class SettingsSecurityView extends StatelessWidget {

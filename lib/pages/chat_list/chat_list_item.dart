@@ -5,10 +5,10 @@ import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:future_loading_dialog/future_loading_dialog.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/room_status_extension.dart';
-import 'package:fluffychat/widgets/hover_builder.dart';
+import 'package:barowachat/config/app_config.dart';
+import 'package:barowachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:barowachat/utils/room_status_extension.dart';
+import 'package:barowachat/widgets/hover_builder.dart';
 import '../../config/themes.dart';
 import '../../utils/date_time_extension.dart';
 import '../../widgets/avatar.dart';

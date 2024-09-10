@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_gen/gen_l10n/l10n.dart';
 
-import 'package:fluffychat/widgets/layouts/login_scaffold.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:barowachat/widgets/layouts/login_scaffold.dart';
+import 'package:barowachat/widgets/matrix.dart';
 import 'login.dart';
 
 class LoginView extends StatelessWidget {
@@ -67,7 +67,7 @@ class LoginView extends StatelessWidget {
                       prefixIcon: const Icon(Icons.account_box_outlined),
                       errorText: controller.usernameError,
                       errorStyle: const TextStyle(color: Colors.orange),
-                      hintText: '@username:localpart',
+                      hintText: 'Username',
                       labelText: L10n.of(context)!.emailOrUsername,
                     ),
                   ),

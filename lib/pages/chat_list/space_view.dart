@@ -8,15 +8,15 @@ import 'package:go_router/go_router.dart';
 import 'package:matrix/matrix.dart' as sdk;
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/pages/chat_list/chat_list_item.dart';
-import 'package:fluffychat/pages/chat_list/search_title.dart';
-import 'package:fluffychat/utils/adaptive_bottom_sheet.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/stream_extension.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/matrix.dart';
-import 'package:fluffychat/widgets/public_room_bottom_sheet.dart';
+import 'package:barowachat/config/app_config.dart';
+import 'package:barowachat/pages/chat_list/chat_list_item.dart';
+import 'package:barowachat/pages/chat_list/search_title.dart';
+import 'package:barowachat/utils/adaptive_bottom_sheet.dart';
+import 'package:barowachat/utils/localized_exception_extension.dart';
+import 'package:barowachat/utils/stream_extension.dart';
+import 'package:barowachat/widgets/avatar.dart';
+import 'package:barowachat/widgets/matrix.dart';
+import 'package:barowachat/widgets/public_room_bottom_sheet.dart';
 
 enum AddRoomType { chat, subspace }
 

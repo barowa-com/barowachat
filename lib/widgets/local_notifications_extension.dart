@@ -9,11 +9,11 @@ import 'package:go_router/go_router.dart';
 import 'package:matrix/matrix.dart';
 import 'package:universal_html/html.dart' as html;
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/utils/client_download_content_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:barowachat/config/app_config.dart';
+import 'package:barowachat/utils/client_download_content_extension.dart';
+import 'package:barowachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:barowachat/utils/platform_infos.dart';
+import 'package:barowachat/widgets/matrix.dart';
 
 extension LocalNotificationsExtension on MatrixState {
   static final html.AudioElement _audioPlayer = html.AudioElement()

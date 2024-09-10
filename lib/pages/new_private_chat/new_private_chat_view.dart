@@ -5,15 +5,15 @@ import 'package:go_router/go_router.dart';
 import 'package:matrix/matrix.dart';
 import 'package:pretty_qr_code/pretty_qr_code.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/pages/new_private_chat/new_private_chat.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:barowachat/config/app_config.dart';
+import 'package:barowachat/config/themes.dart';
+import 'package:barowachat/pages/new_private_chat/new_private_chat.dart';
+import 'package:barowachat/utils/localized_exception_extension.dart';
+import 'package:barowachat/utils/platform_infos.dart';
+import 'package:barowachat/utils/url_launcher.dart';
+import 'package:barowachat/widgets/avatar.dart';
+import 'package:barowachat/widgets/layouts/max_width_body.dart';
+import 'package:barowachat/widgets/matrix.dart';
 
 class NewPrivateChatView extends StatelessWidget {
   final NewPrivateChatController controller;

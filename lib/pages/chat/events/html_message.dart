@@ -10,9 +10,9 @@ import 'package:html/dom.dart' as dom;
 import 'package:linkify/linkify.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/mxc_image.dart';
+import 'package:barowachat/config/app_config.dart';
+import 'package:barowachat/widgets/avatar.dart';
+import 'package:barowachat/widgets/mxc_image.dart';
 import '../../../utils/url_launcher.dart';
 
 class HtmlMessage extends StatelessWidget {

@@ -5,15 +5,15 @@ import 'package:flutter_linkify/flutter_linkify.dart';
 import 'package:go_router/go_router.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/pages/chat_details/chat_details.dart';
-import 'package:fluffychat/pages/chat_details/participant_list_item.dart';
-import 'package:fluffychat/utils/fluffy_share.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/chat_settings_popup_menu.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:barowachat/config/app_config.dart';
+import 'package:barowachat/pages/chat_details/chat_details.dart';
+import 'package:barowachat/pages/chat_details/participant_list_item.dart';
+import 'package:barowachat/utils/fluffy_share.dart';
+import 'package:barowachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:barowachat/widgets/avatar.dart';
+import 'package:barowachat/widgets/chat_settings_popup_menu.dart';
+import 'package:barowachat/widgets/layouts/max_width_body.dart';
+import 'package:barowachat/widgets/matrix.dart';
 import '../../utils/url_launcher.dart';
 
 class ChatDetailsView extends StatelessWidget {

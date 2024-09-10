@@ -9,12 +9,12 @@ import 'package:go_router/go_router.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/pages/chat_details/chat_details_view.dart';
-import 'package:fluffychat/pages/settings/settings.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/widgets/app_lock.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:barowachat/pages/chat_details/chat_details_view.dart';
+import 'package:barowachat/pages/settings/settings.dart';
+import 'package:barowachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:barowachat/utils/platform_infos.dart';
+import 'package:barowachat/widgets/app_lock.dart';
+import 'package:barowachat/widgets/matrix.dart';
 
 enum AliasActions { copy, delete, setCanonical }
 

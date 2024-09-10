@@ -6,10 +6,10 @@ import 'package:future_loading_dialog/future_loading_dialog.dart';
 import 'package:go_router/go_router.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/utils/fluffy_share.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:barowachat/utils/fluffy_share.dart';
+import 'package:barowachat/utils/url_launcher.dart';
+import 'package:barowachat/widgets/avatar.dart';
+import 'package:barowachat/widgets/matrix.dart';
 
 class PublicRoomBottomSheet extends StatelessWidget {
   final String? roomAlias;

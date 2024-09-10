@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/l10n.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
-import 'package:fluffychat/widgets/mxc_image.dart';
+import 'package:barowachat/config/app_config.dart';
+import 'package:barowachat/utils/url_launcher.dart';
+import 'package:barowachat/widgets/mxc_image.dart';
 import '../../widgets/avatar.dart';
 
 class StickerPickerDialog extends StatefulWidget {

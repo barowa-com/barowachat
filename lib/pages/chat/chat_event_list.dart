@@ -3,16 +3,16 @@ import 'package:flutter/material.dart';
 import 'package:matrix/matrix.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
 
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/pages/chat/chat.dart';
-import 'package:fluffychat/pages/chat/events/message.dart';
-import 'package:fluffychat/pages/chat/seen_by_row.dart';
-import 'package:fluffychat/pages/chat/typing_indicators.dart';
-import 'package:fluffychat/pages/user_bottom_sheet/user_bottom_sheet.dart';
-import 'package:fluffychat/utils/account_config.dart';
-import 'package:fluffychat/utils/adaptive_bottom_sheet.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/filtered_timeline_extension.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
+import 'package:barowachat/config/themes.dart';
+import 'package:barowachat/pages/chat/chat.dart';
+import 'package:barowachat/pages/chat/events/message.dart';
+import 'package:barowachat/pages/chat/seen_by_row.dart';
+import 'package:barowachat/pages/chat/typing_indicators.dart';
+import 'package:barowachat/pages/user_bottom_sheet/user_bottom_sheet.dart';
+import 'package:barowachat/utils/account_config.dart';
+import 'package:barowachat/utils/adaptive_bottom_sheet.dart';
+import 'package:barowachat/utils/matrix_sdk_extensions/filtered_timeline_extension.dart';
+import 'package:barowachat/utils/platform_infos.dart';
 
 class ChatEventList extends StatelessWidget {
   final ChatController controller;

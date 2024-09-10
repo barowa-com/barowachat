@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/themes.dart';
+import 'package:barowachat/config/app_config.dart';
+import 'package:barowachat/config/themes.dart';
 
 Future<T?> showAdaptiveBottomSheet<T>({
   required BuildContext context,
