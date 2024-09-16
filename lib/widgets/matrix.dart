@@ -505,7 +505,7 @@ class MatrixState extends State<Matrix> with WidgetsBindingObserver {
     );
 
     final exportFileName =
-        'fluffychat-export-${DateFormat(DateFormat.YEAR_MONTH_DAY).format(DateTime.now())}.fluffybackup';
+        'barowachat-export-${DateFormat(DateFormat.YEAR_MONTH_DAY).format(DateTime.now())}.barowabackup';
 
     final file = MatrixFile(bytes: exportBytes, name: exportFileName);
     file.save(context);

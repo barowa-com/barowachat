@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 git apply ./scripts/enable-android-google-services.patch
-BAROWACHAT_ORIG_GROUP="im.barowachat"
+BAROWACHAT_ORIG_GROUP="im.fluffychat"
 BAROWACHAT_ORIG_TEAM="4NXF6Z997G"
-#BAROWACHAT_NEW_GROUP="com.example.barowachat"
-#BAROWACHAT_NEW_TEAM="ABCDE12345"
+# BAROWACHAT_NEW_GROUP="com.example.barowachat"
+# BAROWACHAT_NEW_TEAM="ABCDE12345"
 
 # In some cases (ie: running beta XCode releases) some pods haven't updated their minimum version
 # but XCode will reject the package for using too old of a minimum version. 
