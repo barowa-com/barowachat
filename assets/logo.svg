@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 5000 5000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><path d="M3757.67,5000c685.662,0 1242.33,-556.671 1242.33,-1242.33l0,-2515.33c0,-685.662 -556.671,-1242.33 -1242.33,-1242.33l-2515.33,0c-685.662,0 -1242.33,556.671 -1242.33,1242.33l0,2515.33c0,685.662 556.671,1242.33 1242.33,1242.33l2515.33,0Z" style="fill:url(#_Linear1);"/><ellipse cx="2498.99" cy="2441.99" rx="1830.91" ry="1512.74" style="fill:#fff;"/><defs><linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(3.07111e-13,5000,-5000,3.05216e-13,2500,1.13687e-13)"><stop offset="0" style="stop-color:#546b35;stop-opacity:1"/><stop offset="1" style="stop-color:#2d4119;stop-opacity:1"/></linearGradient></defs></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1025 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-45,0)">
+        <g transform="matrix(1,0,0,1,45.7855,0)">
+            <g id="Icon-App-1024x1024-1x" serif:id="Icon-App-1024x1024@1x" transform="matrix(1,0,0,1,-420.744,-1810.66)">
+                <rect x="420.744" y="1810.66" width="1024" height="1024" style="fill:none;"/>
+                <g id="Icon-App-1024x1024-1x1" serif:id="Icon-App-1024x1024@1x" transform="matrix(9.48148,0,0,9.48148,932.744,2322.66)">
+                    <g transform="matrix(1,0,0,1,-54,-54)">
+                        <clipPath id="_clip1">
+                            <rect x="0" y="0" width="108" height="108"/>
+                        </clipPath>
+                        <g clip-path="url(#_clip1)">
+                            <path d="M0,-0.088L108,0L108,108L0,108L0,-0.088" style="fill:url(#_Linear2);"/>
+                            <g transform="matrix(0.226004,0,0,0.225305,-1173.63,-172.506)">
+                                <path d="M5550.11,1001.5C5550.11,933.784 5495.22,878.89 5427.5,878.89C5359.78,878.89 5304.89,933.784 5304.89,1001.5C5304.89,1069.22 5359.78,1124.11 5427.5,1124.11L5550.11,1124.11L5550.11,1001.5Z" style="fill:white;"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <linearGradient id="_Linear2" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(6.61447e-15,108.023,-108.111,6.61988e-15,54.0369,-0.0168596)"><stop offset="0" style="stop-color:rgb(84,106,53);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(45,65,25);stop-opacity:1"/></linearGradient>
+    </defs>
+</svg>
